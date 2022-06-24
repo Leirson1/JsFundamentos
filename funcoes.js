@@ -1,6 +1,6 @@
-// let x = "";
-// console.log(x);
-// x = "oi";
+let x = "";
+console.log(x);
+x = "oi";
 
 // DECLARAÇÃO DE FUNÇÃO
 
@@ -10,16 +10,18 @@ function imprimeTexto(texto) {
   console.log(texto)
 }
 
+imprimeTexto("lele");
 // 2) executa a função (1 ou + vezes)
+imprimeTexto("outro texto");
 
 imprimeTexto(soma());
-// imprimeTexto("outro texto");
 
 // três formas de escrever funções
 
 function soma(){
   //outros códigos
   //vários console.log()
+  // return deve ser a ultima linha da funcao
   return 2 + 2;
 }
 
